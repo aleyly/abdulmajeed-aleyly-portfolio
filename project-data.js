@@ -22,7 +22,8 @@ const projectRecords=[
     "locationConfirmed": true,
     "description": "أحد أحدث مشاريعنا في مجمع الملك فيصل الطبي بالطائف. يعرض التصور التصميمي الأقواس والجلسات ومنطقة الخدمة بدرجات ترابية وإضاءة دافئة.",
     "mediaKind": "render",
-    "imageAlt": "تصور ثلاثي الأبعاد للتصميم الداخلي لمشروع بيرفكتو كوب"
+    "imageAlt": "تصور ثلاثي الأبعاد للتصميم الداخلي لمشروع بيرفكتو كوب",
+    "imageSrcset": "assets/projects/perfecto-medical-480.webp 480w, assets/projects/perfecto-medical-800.webp 800w, assets/projects/perfecto-medical.webp 1333w"
   },
   {
     "id": "adhia",
@@ -53,7 +54,8 @@ const projectRecords=[
       "image": "assets/projects/adhia-identity.webp",
       "width": 944,
       "height": 602,
-      "alt": "تطبيق هوية عذية على حقيبة قماشية"
+      "alt": "تطبيق هوية عذية على حقيبة قماشية",
+      "srcset": "assets/projects/adhia-identity-480.webp 480w, assets/projects/adhia-identity-800.webp 800w, assets/projects/adhia-identity.webp 944w"
     }
   },
   {
@@ -246,7 +248,8 @@ const projectRecords=[
     "height": 1455,
     "description": "تصور داخلي يجمع منطقة الطلب والجلسات في مساحة بألوان هادئة.",
     "mediaKind": "render",
-    "imageAlt": "تصور ثلاثي الأبعاد للتصميم الداخلي لمشروع ضوء"
+    "imageAlt": "تصور ثلاثي الأبعاد للتصميم الداخلي لمشروع ضوء",
+    "imageSrcset": "assets/projects/daw-3-480.webp 480w, assets/projects/daw-3-800.webp 800w, assets/projects/daw-3.webp 1600w"
   },
   {
     "id": "sub-art",
