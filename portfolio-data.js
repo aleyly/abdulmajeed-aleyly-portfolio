@@ -1,1 +1,0 @@
-const portfolioImages = {"perfecto": [{"src": "assets/projects/perfecto-medical.webp", "width": 1333, "height": 1600}], "daw": [{"src": "assets/projects/daw-3.webp", "page": 3, "width": 1600, "height": 1455}]};

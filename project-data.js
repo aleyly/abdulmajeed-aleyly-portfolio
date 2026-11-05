@@ -1,4 +1,4 @@
-// Project scopes, logos and map links approved by the owner. Unconfirmed numeric fields remain null.
+// Project scopes and media supplied by the owner. Unknown fields remain null.
 const projectRecords=[
   {
     "id": "perfecto-medical",
@@ -73,7 +73,7 @@ const projectRecords=[
       "brand"
     ],
     "image": "assets/projects/sanam-logo.webp",
-    "description": "قدمنا التصميم والتنفيذ والهوية البصرية لسنام روستري. يعرض الشعار المرفق شخصية العلامة، ويمكن الوصول إلى الموقع الذي أرسله صاحب المشروع.",
+    "description": "قدمنا التصميم والتنفيذ والهوية البصرية لسنام روستري.",
     "mediaKind": "logo",
     "width": 870,
     "height": 586,
@@ -98,7 +98,7 @@ const projectRecords=[
       "brand"
     ],
     "image": "assets/projects/lardor-logo.webp",
-    "description": "عملنا على التصميم والتنفيذ والهوية البصرية للاردور صالون بيوتي. يظهر هنا الشعار المعتمد للعرض ضمن مواد المشروع المرسلة.",
+    "description": "عملنا على التصميم والتنفيذ والهوية البصرية للاردور صالون بيوتي.",
     "mediaKind": "logo",
     "width": 950,
     "height": 514,
@@ -120,8 +120,7 @@ const projectRecords=[
       "commercial"
     ],
     "image": "assets/projects/solibella-front.webp",
-    "description": "نفّذنا أعمال سولي بيلا صالون بيوتي. تُعرض واجهة المشروع من الصور المرسلة، مع رابط الموقع الذي أكده صاحب المشروع حتى إدراجه في خرائط Google.",
-    "mapNote": "الموقع مؤكد من صاحب المشروع؛ الصالون لم يُدرج بعد في خرائط Google.",
+    "description": "نفّذنا أعمال سولي بيلا صالون بيوتي. تعرض الصورة واجهة المشروع.",
     "width": 1306,
     "height": 728,
     "mediaKind": "photo",
@@ -144,7 +143,7 @@ const projectRecords=[
       "commercial"
     ],
     "image": "assets/projects/asila-front.webp",
-    "description": "نفّذنا أعمال أصيلة صالون بيوتي. تعرض الصورة المرسلة واجهة المشروع ومدخله، ويربط زر الموقع بصفحة المكان التي أرسلها صاحب المشروع.",
+    "description": "نفّذنا أعمال أصيلة صالون بيوتي. تعرض الصورة واجهة المشروع ومدخله.",
     "width": 1004,
     "height": 714,
     "mediaKind": "photo",
@@ -167,7 +166,7 @@ const projectRecords=[
       "commercial"
     ],
     "image": "assets/projects/abu-waheed-front.webp",
-    "description": "نفّذنا أعمال أبو وحيد — شاي. تعرض البطاقة واجهة المشروع من الصورة المرسلة، مع رابط موقعه المعتمد من صاحب المشروع.",
+    "description": "نفّذنا أعمال أبو وحيد — شاي. تعرض البطاقة واجهة المشروع.",
     "width": 802,
     "height": 574,
     "mediaKind": "photo",
@@ -227,7 +226,7 @@ const projectRecords=[
     "imageAlt": "شعار مشروع طارف",
     "mapUrl": "https://maps.app.goo.gl/8aSrPRb1xmtdaH8v8",
     "mapConfirmed": true,
-    "description": "قدمنا خدمة التصميم لمشروع طارف. يظهر هنا شعاره المرسل ضمن مواد المشروع، مع رابط موقعه الذي أرسله صاحب المشروع."
+    "description": "قدمنا خدمة التصميم لمشروع طارف."
   },
   {
     "id": "daw",
@@ -245,7 +244,7 @@ const projectRecords=[
     "image": "assets/projects/daw-3.webp",
     "width": 1600,
     "height": 1455,
-    "description": "تصور داخلي يجمع منطقة الطلب والجلسات في مساحة بألوان هادئة. يُستكمل سجل المشروع ببيانات الموقع والمساحة والمدة المعتمدة.",
+    "description": "تصور داخلي يجمع منطقة الطلب والجلسات في مساحة بألوان هادئة.",
     "mediaKind": "render",
     "imageAlt": "تصور ثلاثي الأبعاد للتصميم الداخلي لمشروع ضوء"
   },
@@ -261,7 +260,7 @@ const projectRecords=[
       "commercial"
     ],
     "image": null,
-    "description": "مشروع ضمن سجل أعمالنا التجارية. نطاق الخدمات وتفاصيل التنفيذ بانتظار التوثيق."
+    "description": "مشروع ضمن سجل أعمالنا التجارية."
   },
   {
     "id": "sanoosha",
@@ -282,8 +281,7 @@ const projectRecords=[
     "height": 815,
     "mediaKind": "logo",
     "imageAlt": "هوية سنوشة باللونين الأخضر والبرتقالي على خلفيتين خضراء وبيضاء",
-    "status": "تحت الإنشاء",
-    "locationNote": "المشروع تحت الإنشاء، ولا يوجد له موقع متاح حاليًا."
+    "status": "تحت الإنشاء"
   },
   {
     "id": "residential",
@@ -299,7 +297,7 @@ const projectRecords=[
       "home"
     ],
     "image": null,
-    "description": "مجموعة تصاميم داخلية ومشاريع منزلية. نعرض كل مشروع مستقلًا بعد اعتماد بياناته وصوره."
+    "description": "مجموعة تصاميم داخلية ومشاريع منزلية."
   },
   {
     "id": "baked",
