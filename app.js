@@ -65,3 +65,6 @@ window.addEventListener('load',()=>{if(location.hash==='#testimonials')requestAn
 
 const featuredProjectButton=document.querySelector('#featured-project-open');
 if(featuredProjectButton)featuredProjectButton.addEventListener('click',()=>{const index=projects.findIndex(p=>p.id==='perfecto-medical');if(index>=0)openProject(index);});
+
+// Identity gallery uses the same project details as the portfolio.
+document.querySelectorAll('[data-identity-project]').forEach(button=>button.addEventListener('click',()=>{const index=projects.findIndex(p=>p.id===button.dataset.identityProject);if(index>=0)openProject(index)}));
