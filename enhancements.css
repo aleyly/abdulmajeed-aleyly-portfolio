@@ -28,3 +28,6 @@ header img,footer img{height:auto}
 @media(prefers-reduced-motion:reduce){.project:hover,.button:hover,.button:active,.project:hover .project-visual img{transform:none!important}}
 
 .steps span,.latest .latest-location{color:#81502c}
+
+/* Text fields remain legible without iOS focus zoom. */
+input,select,textarea{font-size:16px}.contact-status:empty{display:none}.contact-status:focus{outline-offset:5px}

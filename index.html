@@ -571,22 +571,25 @@
 <a target="_blank" rel="noopener" href="https://x.com/aa_8668">إكس ↗</a>
 </div>
 </div>
+<!-- TODO(owner): Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. -->
 <form id="contact-form" action="https://formsubmit.co/a.8668@hotmail.com" method="POST">
 <h3>أرسل تفاصيل مشروعك بالبريد</h3>
 <input type="hidden" name="_subject" value="طلب جديد من موقع عبدالماجد العيلي">
 <input type="hidden" name="_template" value="table">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="_next" value="https://aleyly.github.io/abdulmajeed-aleyly-portfolio/thank-you.html">
+<input type="hidden" name="_captcha" value="true">
+<input type="text" name="_honey" aria-hidden="true" style="display:none" tabindex="-1" autocomplete="off">
 <div class="form-row">
-<label>الاسم<input name="name" required autocomplete="name" placeholder="اسمك الكريم" maxlength="120">
+<label for="contact-name">الاسم<input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="اسمك الكريم" maxlength="120">
 </label>
-<label>البريد الإلكتروني<input type="email" name="email" required autocomplete="email" placeholder="you@example.com" dir="ltr">
+<label for="contact-email">البريد الإلكتروني<input type="email" id="contact-email" name="email" required autocomplete="email" placeholder="you@example.com" dir="ltr">
 </label>
 </div>
-<label>رقم الجوال السعودي <span>(اختياري)</span>
-<input type="tel" name="phone" inputmode="tel" autocomplete="tel" dir="ltr" maxlength="22" placeholder="05xxxxxxxx أو +9665xxxxxxxx">
+<label for="contact-phone">رقم الجوال السعودي <span>(اختياري)</span>
+<input type="tel" id="contact-phone" name="phone" inputmode="tel" autocomplete="tel" dir="ltr" maxlength="22" placeholder="05xxxxxxxx أو +9665xxxxxxxx">
 </label>
 <div class="form-row">
-<label>مجال المشروع<select name="service" required>
+<label for="contact-service">مجال المشروع<select id="contact-service" name="service" required>
 <option value="">اختر الخدمة</option>
 <option>تصميم داخلي</option>
 <option>تنفيذ مشروع تجاري</option>
@@ -595,21 +598,21 @@
 <option>خدمات متكاملة</option>
 </select>
 </label>
-<label>المدينة<input name="city" required placeholder="أين سيكون مشروعك؟" maxlength="120">
+<label for="contact-city">المدينة<input id="contact-city" name="city" autocomplete="address-level2" required placeholder="أين سيكون مشروعك؟" maxlength="120">
 </label>
 </div>
-<label>حدثنا عن فكرتك<textarea name="message" required minlength="10" maxlength="5000" rows="4" placeholder="نوع المشروع، المرحلة الحالية، وما تطمح للوصول إليه…">
+<label for="contact-message">حدثنا عن فكرتك<textarea id="contact-message" name="message" required minlength="10" maxlength="5000" rows="4" placeholder="نوع المشروع، المرحلة الحالية، وما تطمح للوصول إليه…">
 </textarea>
 </label>
 <div class="consent-row">
-<label class="consent">
-<input type="checkbox" name="consent" value="agreed" required>
+<label class="consent" for="contact-consent">
+<input type="checkbox" id="contact-consent" name="consent" value="agreed" required>
 <span>أوافق على استخدام بياناتي للتواصل بشأن طلبي، وإرسالها عبر خدمة FormSubmit.</span>
 </label>
 <a href="privacy.html" target="_blank" rel="noopener">اقرأ سياسة الخصوصية ↗</a>
 </div>
 <button type="submit" class="button peach">أرسل الطلب بالبريد ↗</button>
-<p id="contact-status" class="contact-status" role="status" aria-live="polite">
+<p id="contact-status" tabindex="-1" class="contact-status" role="status" aria-live="polite">
 </p>
 <a id="contact-fallback" class="button tool-outline" href="https://wa.me/966590008668" target="_blank" rel="noopener" hidden>أرسل التفاصيل عبر واتساب ↗</a>
 <noscript>
