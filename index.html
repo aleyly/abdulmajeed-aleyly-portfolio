@@ -167,7 +167,7 @@
 </article>
 </div>
 </div>
-<details id="team" class="profile-team" open>
+<details id="team" class="profile-team" hidden>
 <summary>تعرّف على فريق العمل <span aria-hidden="true">+</span>
 </summary>
 <div class="profile-team-body">
@@ -395,7 +395,7 @@
 </figure>
 </div>
 </div>
-<div class="brands project-subsection">
+<div id="identities" class="brands project-subsection">
 <div class="eyebrow">من أعمالنا في بناء الهويات</div>
 <div class="identity-gallery">
 <button type="button" class="identity-tile" data-identity-project="sanam" aria-label="شاهد هوية سنام روستري" aria-haspopup="dialog">
@@ -408,7 +408,7 @@
 <img src="assets/projects/adhia-logo.webp" width="718" height="486" alt="شعار عذية — شاي ومخبوزات" loading="lazy" decoding="async">
 </button>
 <button type="button" class="identity-tile" data-identity-project="sanoosha" aria-label="شاهد هوية سنوشة" aria-haspopup="dialog">
-<img src="assets/projects/sanoosha-identity.webp" width="1280" height="815" alt="شعار سنوشة" loading="lazy" decoding="async">
+<div class="project-image-crop identity-sanoosha" style="aspect-ratio:640/440"><img src="assets/projects/sanoosha-identity.webp" width="1280" height="815" alt="شعار سنوشة على الخلفية الخضراء" loading="lazy" decoding="async" style="width:200%;left:0;top:-40.909091%;height:auto"></div>
 </button>
 <button type="button" class="identity-tile" data-identity-project="lardor" aria-label="شاهد هوية لاردور" aria-haspopup="dialog">
 <img src="assets/projects/lardor-logo.webp" width="950" height="514" alt="شعار لاردور" loading="lazy" decoding="async">
@@ -585,12 +585,11 @@
 <p class="contact-alternative">تفضّل البريد؟ النموذج بديل متاح أدناه.</p>
 <a class="contact-email" href="mailto:a.8668@hotmail.com" dir="ltr">a.8668@hotmail.com <span aria-hidden="true">↗</span></a>
 <a href="tel:+966590008668" dir="ltr" class="phone">+966 59 000 8668</a>
-<div class="socials">
-<a target="_blank" rel="noopener noreferrer" href="https://wa.me/966590008668">واتساب <span aria-hidden="true">↗</span></a>
-<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/a.8668">إنستقرام <span aria-hidden="true">↗</span></a>
-<a target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/add/a.8668">سناب شات <span aria-hidden="true">↗</span></a>
-<a target="_blank" rel="noopener noreferrer" href="https://x.com/aa_8668">إكس <span aria-hidden="true">↗</span></a>
-</div>
+<div class="socials" aria-label="حسابات التواصل">
+<a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://wa.me/966590008668" aria-label="واتساب" title="واتساب"><img src="assets/icons/whatsapp.svg" width="24" height="24" alt="" aria-hidden="true" loading="lazy"><span class="social-tooltip" aria-hidden="true">واتساب</span></a>
+<a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://instagram.com/a.8668" aria-label="إنستقرام" title="إنستقرام"><img src="assets/icons/instagram.svg" width="24" height="24" alt="" aria-hidden="true" loading="lazy"><span class="social-tooltip" aria-hidden="true">إنستقرام</span></a>
+<a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/add/a.8668" aria-label="سناب شات" title="سناب شات"><img src="assets/icons/snapchat.svg" width="24" height="24" alt="" aria-hidden="true" loading="lazy"><span class="social-tooltip" aria-hidden="true">سناب شات</span></a>
+<a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://x.com/aa_8668" aria-label="إكس" title="إكس"><img src="assets/icons/x.svg" width="24" height="24" alt="" aria-hidden="true" loading="lazy"><span class="social-tooltip" aria-hidden="true">إكس</span></a></div>
 </div>
 <!-- TODO(owner): Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. -->
 <form id="contact-form" action="https://formsubmit.co/a.8668@hotmail.com" method="POST">
