@@ -38,3 +38,5 @@
 .location-shortcuts{max-width:760px;grid-template-columns:repeat(6,minmax(0,1fr))}@media(max-width:700px){.location-shortcuts{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
 .location-services{font-size:11px;line-height:1.7;color:#535e6b}.location-shortcut{gap:6px}
+
+.testimonial-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:24px}.testimonial-list .client-testimonial{min-width:0}.stats-qualifier{max-width:760px}@media(max-width:700px){.testimonial-list{grid-template-columns:minmax(0,1fr)}}
