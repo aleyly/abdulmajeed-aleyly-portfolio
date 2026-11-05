@@ -61,3 +61,6 @@ renderQuiz();renderPlanner();
 
 // Restore the testimonial anchor after project cards have filled the preceding section.
 window.addEventListener('load',()=>{if(location.hash==='#testimonials')requestAnimationFrame(()=>document.querySelector('#testimonials')?.scrollIntoView({behavior:'instant',block:'start'}));},{once:true});
+
+const featuredProjectButton=document.querySelector('#featured-project-open');
+if(featuredProjectButton)featuredProjectButton.addEventListener('click',()=>{const index=projects.findIndex(p=>p.id==='perfecto-medical');if(index>=0)openProject(index);});
