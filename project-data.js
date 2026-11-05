@@ -300,5 +300,34 @@ const projectRecords=[
     ],
     "image": null,
     "description": "مجموعة تصاميم داخلية ومشاريع منزلية. نعرض كل مشروع مستقلًا بعد اعتماد بياناته وصوره."
+  },
+  {
+    "id": "baked",
+    "name": "BAKED",
+    "city": "الرياض",
+    "activity": null,
+    "area": null,
+    "duration": null,
+    "services": [
+      "هوية"
+    ],
+    "cats": [
+      "brand"
+    ],
+    "image": "assets/projects/baked-identity-source.webp",
+    "width": 1320,
+    "height": 2868,
+    "mediaKind": "logo",
+    "imageAlt": "شعار BAKED بلونه العنابي مع عبارة Heat & Friends",
+    "imageCrop": {
+      "x": 130,
+      "y": 570,
+      "width": 850,
+      "height": 460,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    "status": "قيد التنفيذ",
+    "description": "بنينا الهوية التجارية لمشروع BAKED في العاصمة الرياض. المشروع قيد التنفيذ."
   }
 ];
