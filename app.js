@@ -58,3 +58,6 @@ const toolTabs=[document.querySelector('#quiz-tab'),document.querySelector('#tim
 function selectTool(index,focus=false){toolTabs.forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;document.getElementById(tab.getAttribute('aria-controls')).hidden=i!==index});if(focus)toolTabs[index].focus()}
 toolTabs.forEach((tab,i)=>{tab.onclick=()=>selectTool(i);tab.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();selectTool(e.key==='Home'?0:e.key==='End'?1:1-i,true)}}});
 renderQuiz();renderPlanner();
+
+// Restore the testimonial anchor after project cards have filled the preceding section.
+window.addEventListener('load',()=>{if(location.hash==='#testimonials')requestAnimationFrame(()=>document.querySelector('#testimonials')?.scrollIntoView({behavior:'instant',block:'start'}));},{once:true});
