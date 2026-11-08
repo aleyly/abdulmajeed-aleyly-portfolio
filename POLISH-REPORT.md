@@ -92,3 +92,5 @@ One commit for each requested numbered section, including 2b, plus separate comm
 ## Update — 8 November 2026
 
 Added the owner-supplied project/budget and consultant videos as two separate lessons with summaries, original SVG covers/infographics, timed text and local checklists. Both sources are silent 1080×1920 H.264 videos (35s and 40s). The streams were copied without re-encoding and placed in fast-start MP4 containers. Published Amjad Alghamdi’s approved Kebeesat testimonial in the first hospitality slot; one empty slot remains hidden. Replaced Unicode arrows with currentColor SVGs so iOS does not render emoji. Prior Lighthouse figures above refer to the 5 November audit, not a new measurement of this update.
+
+Added lesson 05, Brand Personality. The owner explicitly approved removing the leading black section. The original file is preserved outside the repository; the published H.264 clip runs 29s after trimming its first 11s. The lesson summarizes the four visible points only (traits, voice, visual personality and consistency); no missing first-step content was invented.

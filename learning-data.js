@@ -132,4 +132,62 @@ const learningLessons=[{id:'before-opening',title:'خمس خطوات قبل ال
   "transcript": "assets/learning/why-consultant.txt",
   "captions": "assets/learning/why-consultant.vtt",
   "posterAlt": "لماذا تستعين بمستشار قبل القرار الكبير؟ — ملخص بصري من مكتبة عبدالماجد العيلي"
+},
+{
+  "id": "brand-personality",
+  "number": 5,
+  "title": "كيف تبني شخصية علامتك التجارية؟",
+  "category": "الهوية البصرية",
+  "duration": 29,
+  "description": "أربع خطوات تربط صفات العلامة بصوتها ومظهرها، وتساعدك على الحفاظ على شخصية متسقة في الخدمة والردود والمحتوى وكل نقطة تواصل.",
+  "hasAudio": false,
+  "videoWidth": 1080,
+  "videoHeight": 1920,
+  "video": "assets/learning/brand-personality.mp4",
+  "poster": "assets/learning/brand-personality-cover.svg",
+  "posterAlt": "شخصية العلامة التجارية: الصفات والصوت والمظهر والاتساق",
+  "infographic": "assets/learning/brand-personality-infographic.svg",
+  "transcript": "assets/learning/brand-personality.txt",
+  "captions": "assets/learning/brand-personality.vtt",
+  "infographicTitle": "شخصية واضحة في كل نقطة تواصل.",
+  "checklistTitle": "قائمة مراجعة شخصية العلامة",
+  "conclusion": "علامة تعرف من هي، يعرفها عميلك. حدد شخصيتها، ثم التزم بها في كل تفاصيلها.",
+  "steps": [
+    {
+      "title": "اختر ثلاث صفات تصف علامتك.",
+      "short": "الصفات",
+      "time": 1,
+      "key": "traits",
+      "tip": "مثل: دافئة، دقيقة، جريئة. وحدد كذلك ما لا تكونه العلامة.",
+      "question": "ما الصفات الثلاث التي تصف علامتي؟ وما الصفات التي لا أريد أن ترتبط بها؟",
+      "task": "حددت ثلاث صفات للعلامة وما لا تمثله."
+    },
+    {
+      "title": "حدد كيف تتكلم علامتك.",
+      "short": "الصوت",
+      "time": 5,
+      "key": "voice",
+      "tip": "حدد كلمات تستخدمها، وكلمات تتجنبها، ونبرة ثابتة.",
+      "question": "كيف نخاطب العميل؟ وما الكلمات التي نستخدمها أو نتجنبها؟",
+      "task": "كتبت نبرة الخطاب والكلمات المستخدمة والمستبعدة."
+    },
+    {
+      "title": "اجعل الشخصية مرئية.",
+      "short": "المظهر",
+      "time": 11,
+      "key": "visuals",
+      "tip": "الألوان والشعار والمكان والتغليف تقول الشيء نفسه.",
+      "question": "هل تعكس الألوان والشعار والمكان والتغليف شخصية واحدة؟",
+      "task": "راجعت اتساق الألوان والشعار والمكان والتغليف."
+    },
+    {
+      "title": "التزم بها في كل نقطة تواصل.",
+      "short": "الاتساق",
+      "time": 15,
+      "key": "consistency",
+      "tip": "الخدمة والرد والمحتوى والفريق بنبرة واحدة.",
+      "question": "هل تظهر الشخصية نفسها في الخدمة والردود والمحتوى وطريقة تعامل الفريق؟",
+      "task": "راجعت اتساق الشخصية في الخدمة والردود والمحتوى والفريق."
+    }
+  ]
 }];
