@@ -59,11 +59,10 @@ Team wording tasks are dormant while the team section remains hidden. Fill appro
 | [index.html:344](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L344) | Supply approved city/activity, area and execution duration for incomplete project records in project-data.js; absent values stay hidden. |
 | [index.html:345](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L345) | Supply approved photos and service scope for Sub Art and residential projects; no substitute images or unconfirmed scope are shown. |
 | [index.html:373](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L373) | Approve wording clarifying that the portfolio shows selected projects from the 39-project record, rather than all completed work. |
-| [index.html:391](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L391) | Supply a genuine hospitality-client testimonial, approved quotation, client name, project and permission to publish; fill this slot and remove hidden only when complete. |
-| [index.html:394](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L394) | Supply a second genuine hospitality-client testimonial, approved quotation, client name, project and permission to publish; fill this slot and remove hidden only when complete. |
-| [index.html:431](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L431) | Replace the Perfecto King Faisal Medical Complex generic Maps search with a direct project pin URL. |
-| [index.html:583](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L583) | State the approved first-session fee or confirm whether the first call is free; until then fees are determined on contact. |
-| [index.html:594](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L594) | Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. |
+| [index.html:400](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L400) | Supply a second genuine hospitality-client testimonial, approved quotation, client name, project and permission to publish; fill this slot and remove hidden only when complete. |
+| [index.html:437](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L437) | Replace the Perfecto King Faisal Medical Complex generic Maps search with a direct project pin URL. |
+| [index.html:589](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L589) | State the approved first-session fee or confirm whether the first call is free; until then fees are determined on contact. |
+| [index.html:600](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L600) | Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. |
 
 ## Commits
 
@@ -89,3 +88,7 @@ One commit for each requested numbered section, including 2b, plus separate comm
 - Perfecto still uses the requested generic Maps search until a direct pin is provided. External business opening status was not re-audited.
 - Lighthouse was measured on the local homepage. GitHub Pages network/cache behavior and individual devices can produce different results; the other pages received responsive and axe checks, not separate before/after Lighthouse runs.
 
+
+## Update — 8 November 2026
+
+Added the owner-supplied project/budget and consultant videos as two separate lessons with summaries, original SVG covers/infographics, timed text and local checklists. Both sources are silent 1080×1920 H.264 videos (35s and 40s). The streams were copied without re-encoding and placed in fast-start MP4 containers. Published Amjad Alghamdi’s approved Kebeesat testimonial in the first hospitality slot; one empty slot remains hidden. Replaced Unicode arrows with currentColor SVGs so iOS does not render emoji. Prior Lighthouse figures above refer to the 5 November audit, not a new measurement of this update.
