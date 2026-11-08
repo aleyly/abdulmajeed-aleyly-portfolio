@@ -18,7 +18,7 @@ header img,footer img{height:auto}
 .section{padding-block:var(--space-section)}header,.city-strip,footer{padding-inline:var(--content-edge)}
 .hero-copy{padding-inline:clamp(24px,7vw,112px) clamp(24px,4vw,64px)}
 .hero h1{font-size:clamp(40px,4.4vw,68px);letter-spacing:-1px}.hero p{font-size:17px}
-.project{animation:none}.project-visual::before{display:none}.project-visual{height:260px;background:#dfdad0!important}.project-visual img{object-fit:cover}.project-visual img[src$="placeholder.svg"]{object-fit:contain}
+.project{animation:none}.project-visual::before{display:none}.project-visual{height:260px;background:#dfdad0!important}.project-visual img{object-fit:cover}
 .project-open{font-size:22px}.project-facts>div{font-size:14px}.project-facts dt{color:#535e6b}.project-info{padding:24px 24px 8px}.project-facts{padding-inline:24px;padding-bottom:24px}
 .button{min-height:48px;transition:background-color 140ms,color 140ms,transform 140ms;border-radius:2px}.button:hover{box-shadow:none;transform:none}.button:active{transform:translateY(1px) scale(.985)}
 .fine,.signature span,.hero-foot,.contact form .fine,.tags span,.location-verification,.template-note,.template-badge{font-size:13px}.media-badge{font-size:12px}.team-card,.testimonial-template{background:transparent}
