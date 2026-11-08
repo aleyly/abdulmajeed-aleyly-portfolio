@@ -31,3 +31,6 @@ header img,footer img{height:auto}
 
 /* Text fields remain legible without iOS focus zoom. */
 input,select,textarea{font-size:16px}.contact-status:empty{display:none}.contact-status:focus{outline-offset:5px}
+
+/* Vector arrows retain their text color and never fall back to emoji on iOS. */
+.ui-arrow{display:inline-block;width:20px;height:20px;min-width:20px;flex:0 0 20px;vertical-align:-.2em;overflow:visible;pointer-events:none}.hero-foot .ui-arrow{width:24px;height:24px}.button>span[aria-hidden],.text-link>span[aria-hidden]{display:inline-flex;align-items:center;justify-content:center}.text-link{display:inline-flex;align-items:center;gap:12px}
