@@ -263,7 +263,7 @@ const learningLessons=[
     "category": "الهوية البصرية",
     "duration": 40,
     "description": "خمس خطوات تبدأ بالإحساس الذي تتركه علامتك، ثم تربط صفاتها بصوتها ومظهرها وتحافظ على اتساقها في كل نقطة تواصل.",
-    "infographicTitle": "شخصية واضحة في كل تفصيلة.",
+    "infographicTitle": "شخصية واضحة في كل تفاصيلك.",
     "checklistTitle": "قائمة مراجعة شخصية العلامة",
     "conclusion": "علامة تعرف من هي، يعرفها عميلك. حدد شخصيتها، ثم التزم بها في كل تفاصيلها.",
     "steps": [
@@ -317,8 +317,8 @@ const learningLessons=[
     "videoWidth": 1080,
     "videoHeight": 1920,
     "video": "assets/learning/brand-personality-v2.mp4",
-    "poster": "assets/learning/brand-personality-v2-cover.svg",
-    "infographic": "assets/learning/brand-personality-v2-infographic.svg",
+    "poster": "assets/learning/brand-personality-v3-cover.svg",
+    "infographic": "assets/learning/brand-personality-v3-infographic.svg",
     "transcript": "assets/learning/brand-personality-v2.txt",
     "captions": "assets/learning/brand-personality-v2.vtt",
     "posterAlt": "كيف تبني شخصية علامتك التجارية؟ — ملخص بصري من مكتبة عبدالماجد العيلي"
