@@ -34,3 +34,6 @@ input,select,textarea{font-size:16px}.contact-status:empty{display:none}.contact
 
 /* Vector arrows retain their text color and never fall back to emoji on iOS. */
 .ui-arrow{display:inline-block;width:20px;height:20px;min-width:20px;flex:0 0 20px;vertical-align:-.2em;overflow:visible;pointer-events:none}.hero-foot .ui-arrow{width:24px;height:24px}.button>span[aria-hidden],.text-link>span[aria-hidden]{display:inline-flex;align-items:center;justify-content:center}.text-link{display:inline-flex;align-items:center;gap:12px}
+
+/* All decorative UI controls use vectors, including library play badges. */
+.ui-icon{display:inline-block;width:24px;height:24px;min-width:24px;flex:0 0 24px;vertical-align:-.25em;pointer-events:none}.lesson-play .ui-icon{width:22px;height:22px;min-width:22px}.lesson-play{pointer-events:none}#menu .ui-icon{display:block;margin:auto;width:26px;height:26px}.close,.stage-close{line-height:0}.close .ui-icon,.stage-close .ui-icon{width:22px;height:22px}.city-strip .ui-spark{width:10px;height:10px;min-width:10px}.service-mark .ui-icon{width:28px;height:28px}.plus .ui-icon{display:block}
