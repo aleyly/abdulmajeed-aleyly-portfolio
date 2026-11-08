@@ -1,4 +1,4 @@
-/* Main-page organization: six numbered sections, RTL and original brand tokens. */
+/* Main-page organization: seven numbered sections, RTL and original brand tokens. */
 .main-section{position:relative;padding-block:120px;border-top:1px solid #28374a24}.main-section>*{min-width:0}.section-label{display:flex;align-items:center;gap:14px;font-size:14px;font-weight:500;margin-bottom:32px}.section-label:after{content:'';height:1px;background:currentColor;opacity:.25;width:72px}.section-index{display:inline-grid;place-items:center;width:40px;height:40px;border:1px solid currentColor;font-size:14px;font-weight:400;flex-shrink:0}.section-head .section-label{margin-bottom:24px}
 .hero{position:relative}.hero>.city-strip{grid-column:1/-1;background:#223042;color:#f5f3ee;padding-block:18px;border-top:1px solid #ffffff25;border-bottom:1px solid #ffffff25}.hero .city-strip>span{color:#d7dce2}.hero .city-strip div{font-size:15px}.hero .city-strip b{color:var(--peach)}
 /* Personal card, with five concise supporting notes. */
@@ -53,3 +53,6 @@ body.menu-open .floating{visibility:hidden}.quiz-nav{min-block-size:90px;align-i
 @media(max-width:700px){.identity-gallery{grid-template-columns:repeat(3,minmax(0,96px));gap:14px;max-width:320px}.identity-tile{aspect-ratio:4/3;min-height:56px}.socials{gap:12px}}
 
 .testimonial-list{align-items:start}.client-testimonial blockquote p+p{margin-block-start:18px}
+
+/* Learning precedes all project showcases; preserve the existing brand palette. */
+#learning-library{background:var(--navy);color:var(--paper)}#learning-library .section-label,#learning-library em{color:var(--peach)}#learning-library>.section-head>p{color:#dce2e9}#learning-library>.library-visit{color:var(--peach);border-color:#ffd3a480;min-height:44px;padding-block:8px}#learning-library :focus-visible{outline-color:var(--peach)}#projects .featured-project{padding:0;margin-block:48px;border-bottom:0}#projects .featured-project-copy{margin-bottom:0}@media(max-width:700px){#projects .featured-project{margin-block:32px}}

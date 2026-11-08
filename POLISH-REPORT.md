@@ -51,18 +51,18 @@ Team wording tasks are dormant while the team section remains hidden. Fill appro
 
 | HTML location | Owner task |
 | --- | --- |
-| [index.html:109](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L109) | Resolve the hospitality practitioner description here versus the institutional development consultant team title; approve one consistent positioning. |
-| [index.html:188](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L188) | Provide client-facing wording for Abdulmajeed Aleyly: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
-| [index.html:204](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L204) | Provide client-facing wording for Mohammed Ali Ibrahim: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
-| [index.html:220](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L220) | Provide client-facing wording for Mohammed El Sayed Farag: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
-| [index.html:335](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L335) | Approve this scope sentence balancing the hospitality focus with salon and residential services. |
-| [index.html:344](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L344) | Supply approved city/activity, area and execution duration for incomplete project records in project-data.js; absent values stay hidden. |
-| [index.html:345](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L345) | Supply approved photos and service scope for Sub Art and residential projects; no substitute images or unconfirmed scope are shown. |
-| [index.html:373](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L373) | Approve wording clarifying that the portfolio shows selected projects from the 39-project record, rather than all completed work. |
-| [index.html:400](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L400) | Supply a second genuine hospitality-client testimonial, approved quotation, client name, project and permission to publish; fill this slot and remove hidden only when complete. |
-| [index.html:437](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L437) | Replace the Perfecto King Faisal Medical Complex generic Maps search with a direct project pin URL. |
-| [index.html:589](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L589) | State the approved first-session fee or confirm whether the first call is free; until then fees are determined on contact. |
-| [index.html:600](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L600) | Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. |
+| [index.html:95](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L95) | Resolve the hospitality practitioner description here versus the institutional development consultant team title; approve one consistent positioning. |
+| [index.html:174](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L174) | Provide client-facing wording for Abdulmajeed Aleyly: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
+| [index.html:190](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L190) | Provide client-facing wording for Mohammed Ali Ibrahim: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
+| [index.html:206](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L206) | Provide client-facing wording for Mohammed El Sayed Farag: what this member does for a cafe, restaurant or bakery owner. Retain the supplied title until approved. |
+| [index.html:349](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L349) | Approve this scope sentence balancing the hospitality focus with salon and residential services. |
+| [index.html:358](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L358) | Supply approved city/activity, area and execution duration for incomplete project records in project-data.js; absent values stay hidden. |
+| [index.html:359](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L359) | Supply approved photos and service scope for Sub Art and residential projects; no substitute images or unconfirmed scope are shown. |
+| [index.html:387](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L387) | Approve wording clarifying that the portfolio shows selected projects from the 39-project record, rather than all completed work. |
+| [index.html:414](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L414) | Supply a second genuine hospitality-client testimonial, approved quotation, client name, project and permission to publish; fill this slot and remove hidden only when complete. |
+| [index.html:451](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L451) | Replace the Perfecto King Faisal Medical Complex generic Maps search with a direct project pin URL. |
+| [index.html:590](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L590) | State the approved first-session fee or confirm whether the first call is free; until then fees are determined on contact. |
+| [index.html:601](https://github.com/aleyly/abdulmajeed-aleyly-portfolio/blob/main/index.html#L601) | Confirm FormSubmit activation for the existing recipient and test actual inbox delivery before relying on email. |
 
 ## Commits
 
@@ -98,3 +98,5 @@ Added lesson 05, Brand Personality. The owner explicitly approved removing the l
 ## Library update — corrected source and two new lessons
 
 Replaced the Brand Personality lesson with the complete corrected 40-second source. Its missing introduction and first step are restored; the existing lesson URL is retained and the video/summary/cover/infographic/caption files are versioned to avoid stale 29-second media caches. Existing checklist keys are preserved. Added the Pricing and Taste vs Market lessons from the owner-supplied 40-second silent H.264 videos. The library now contains seven unique lessons. No price amounts or margin percentages were invented.
+
+Moved the educational library to a standalone homepage section before the portfolio, and moved the featured Perfecto card into the portfolio. Navigation and primary section numbering now follow that order. The featured image is lazy-loaded in its new below-fold position.
