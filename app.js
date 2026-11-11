@@ -1,3 +1,14 @@
+// Links keep a native no-JS destination; enhanced navigation reveals and focuses it.
+document.querySelectorAll('.hero-service-link').forEach(link=>link.addEventListener('click',event=>{
+ const service=document.getElementById(link.hash.slice(1));
+ if(service instanceof HTMLDetailsElement){
+  event.preventDefault();
+  service.open=true;
+  if(location.hash!==link.hash)history.pushState(null,'',link.hash);
+  service.querySelector('summary')?.focus({preventScroll:true});
+  service.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+ }
+}));
 const projects=projectRecords;
 const projectDialog=document.querySelector('#project-dialog');
 const projectFacts=p=>[['المدينة',p.city],['نوع النشاط',p.activity],['المساحة',p.area],['مدة التنفيذ',p.duration],['ما قدمناه',p.services.join(' · ')],['حالة المشروع',p.status]].filter(([,value])=>value!==null&&value!==undefined&&value!=='');

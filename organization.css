@@ -59,3 +59,14 @@ body.menu-open .floating{visibility:hidden}.quiz-nav{min-block-size:90px;align-i
 
 /* Learning precedes all project showcases; preserve the existing brand palette. */
 #learning-library{background:var(--navy);color:var(--paper)}#learning-library .section-label,#learning-library em{color:var(--peach)}#learning-library>.section-head>p{color:#dce2e9}#learning-library>.library-visit{color:var(--peach);border-color:#ffd3a480;min-height:44px;padding-block:8px}#learning-library :focus-visible{outline-color:var(--peach)}#projects .featured-project{padding:0;margin-block:48px;border-bottom:0}#projects .featured-project-copy{margin-bottom:0}@media(max-width:700px){#projects .featured-project{margin-block:32px}}
+
+/* Useful service shortcuts, with vector artwork that stays consistent on phones. */
+.hero-services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:min(100%,408px);margin:0 auto 36px}
+.hero-service-link{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-width:0;min-height:104px;padding:14px 12px;border:1px solid #ffd3a470;border-radius:12px;background:#ffd3a40a;color:var(--peach);font-size:21px;font-weight:500;line-height:1.5;transition:background-color .18s,color .18s,border-color .18s}
+.hero-service-icon{display:block;flex-shrink:0;width:32px;height:32px;transition:transform .18s}
+.hero-service-link:focus-visible{outline:3px solid var(--peach);outline-offset:5px;background:var(--peach);color:var(--navy)}
+.hero-service-link:active{background:var(--peach);color:var(--navy)}
+#services details[id]{scroll-margin-block-start:28px}
+@media(hover:hover){.hero-service-link:hover{background:var(--peach);border-color:var(--peach);color:var(--navy)}.hero-service-link:hover .hero-service-icon{transform:translateY(-2px)}}
+@media(max-width:700px){.hero-services{gap:10px;width:min(100%,336px);margin-bottom:30px}.hero-service-link{min-height:88px;padding:12px 8px;gap:7px;font-size:19px}.hero-service-icon{width:28px;height:28px}}
+@media(prefers-reduced-motion:reduce){.hero-service-link,.hero-service-icon{transition:none}.hero-service-link:hover .hero-service-icon{transform:none}}
