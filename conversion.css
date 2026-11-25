@@ -1,0 +1,16 @@
+/* A clearer path from the existing services and learning content to a conversation. */
+.hero .session-cta,.session-cta{justify-content:center;gap:0;text-align:center;line-height:1.7;font-size:1.0625rem}
+.hero .hero-next-step{font-size:.875rem;line-height:1.9;max-width:39rem;margin:18px auto 0;color:var(--secondary)}
+.contact-prep{margin-block:28px;padding-inline-start:20px;border-inline-start:1px solid var(--accent)}
+.contact-prep h3,.contact-faq h3{font-size:1.125rem;font-weight:500;line-height:1.6;margin:0 0 12px}
+.contact-prep p{margin-bottom:0}
+.contact-faq{margin-block:32px}
+.contact-faq details{border-color:var(--divider)}
+.contact-faq summary{padding:18px 0;gap:16px;justify-content:space-between;font-size:1rem;color:var(--cream);line-height:1.8}
+.contact-faq summary::after{content:'';flex:0 0 9px;width:9px;height:9px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-inline:4px;align-self:center}
+.contact-faq details[open]>summary::after{transform:rotate(225deg)}
+.contact-faq p{margin:0;padding-block:0 20px;font-size:1rem;line-height:1.9}
+.contact-faq p a{text-decoration:underline;text-underline-offset:4px}
+.library-next-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:28px}
+.library-next-actions .text-link{min-height:44px;font-size:1rem}
+@media(max-width:700px){.hero .hero-next-step{font-size:.875rem}.hero .actions{gap:18px}.contact-prep{padding-inline-start:16px}.contact-faq{margin-block:28px}.library-next-actions{align-items:stretch;flex-direction:column;gap:16px}.library-next-actions .text-link{justify-content:center}.session-cta{width:100%;padding-inline:16px}}
